@@ -26,7 +26,7 @@ var APP_ID = "0418e7a4-4804-41a1-8229-fe346bcb2fcf";
   });
 
   function done() {
-    btn.textContent = "You're on the list";
+    document.getElementById("notify-label").textContent = "You're on the list";
     btn.disabled = true;
     say("We'll notify you when the website launches.");
   }
